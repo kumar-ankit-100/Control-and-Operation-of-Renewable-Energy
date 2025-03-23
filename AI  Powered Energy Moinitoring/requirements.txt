@@ -1,0 +1,15 @@
+streamlit
+pandas
+matplotlib
+plotly
+streamlit
+pandas
+numpy
+plotly
+joblib
+pickle-mixin
+tensorflow
+seaborn
+scikit-learn
+meteostat
+xgboost

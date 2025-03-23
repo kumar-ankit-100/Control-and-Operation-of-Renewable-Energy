@@ -29,3 +29,32 @@ __pycache__/
 *.pyc
 dist/
 .DS_Store
+# Python Virtual Environment
+venv/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Flask & Python Env Files
+instance/
+.env
+*.sqlite3
+*.log
+
+# Node.js & Frontend Files
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+.vite/
+
+# Editor & System Files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+
