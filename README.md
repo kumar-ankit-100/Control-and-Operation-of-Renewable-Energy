@@ -69,7 +69,13 @@ Renewable energy sources like **solar and wind** are the future, but **their eff
 
 ## 📸 Screenshots
 
-🚀 **Coming Soon!** (Once UI is finalized)
+![Dashboard Preview](assets/screenshot_1.png)
+![Dashboard Preview](assets/screenshot_4.png)
+![Dashboard Preview](assets/screenshot_7.png)
+![Dashboard Preview](assets/screenshot_12.png)
+![Dashboard Preview](assets/screenshot_14.png)
+![Dashboard Preview](assets/screenshot_16.png)
+
 
 ## 🛠 Installation & Setup
 
@@ -134,11 +140,13 @@ This project was built as part of a **hackathon challenge** on **renewable energ
 
 
 ## Demo
+## 🚀 Live Demo
 
-Insert gif or link to demo
+- **Frontend:** [Vercel Deployment](https://control-and-operation-of-renewable-energy.vercel.app/)
+- **AI-Powered Monitoring:** [Streamlit App](https://control-and-operation-of-renewable-energy-tx9cuvefu7wwpggprjsa.streamlit.app/)
 
 
 ## Authors
 
-- [@octokatherine](https://www.github.com/octokatherine)
+- [@kumar-ankit-100](https://github.com/kumar-ankit-100)
 
