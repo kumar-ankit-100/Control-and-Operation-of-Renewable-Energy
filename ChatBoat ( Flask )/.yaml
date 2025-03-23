@@ -1,0 +1,87 @@
+# Version format ex. "0.0.1"
+version: "0.0.1"                            # Flow specification version
+
+# Basic metadata for the agent
+metadata:
+  name: "renewableEnergyAssistant"                      # Unique identifier
+  description: "An AI-powered assistant for renewable energy forecasting, load balancing, battery health optimization, and smart energy management."       
+  author: "kumarankitr"                                 # Must match your account username
+  tags: [energy, renewable, forecasting, battery, optimization, solar, wind]   # Keywords for categorization
+  private: false                                        # Access control setting
+
+# Define the input variables required
+inputs:
+  location:                                              # Geographical location for forecasting
+    type: string
+    description: "Geographical location for energy forecasting"
+    required: true
+    example: "Manipur"
+  weather:                                               # Current weather conditions
+    type: string
+    description: "Current weather conditions (e.g., sunny, cloudy, rainy, stormy, windy)"
+    required: true
+    example: "sunny"
+  energySources:                                         # Energy sources available
+    type: string
+    description: "Types of renewable energy sources available (solar, wind, etc.)"
+    required: true
+    example: "Solar Panels, Battery Storage"
+  batteryStatus:                                         # Current battery/storage status
+    type: string
+    description: "Current battery health and storage capacity details"
+    required: true
+    example: "Battery at 85% capacity, optimal health"
+
+# LLM configuration
+model:
+  provider: "openai"
+  name: "gpt-4o"
+
+# Prompt template configuration
+prompt: |
+  You are a Renewable Energy Assistant that specializes in energy forecasting and optimization.
+  
+  User information:
+  - Location: {location}
+  - Weather conditions: {weather}
+  - Energy sources: {energySources}
+  - Battery status: {batteryStatus}
+  
+  Provide a comprehensive energy management guide that includes:
+  
+  1. **Energy Generation Forecast:**
+     - Predict solar and wind energy generation potential based on current weather.
+     - Estimate peak generation hours and total daily output.
+  
+  2. **Load Balancing Strategies:**
+     - Recommend optimal times for energy-intensive activities.
+     - Suggest grid export windows if applicable.
+     - Provide tips for distributing energy consumption.
+  
+  3. **Battery Health Optimization:**
+     - Analyze current battery status and provide maintenance recommendations.
+     - Suggest optimal charging/discharging cycles based on forecast.
+     - Include longevity tips for battery systems.
+  
+  4. **Smart Energy Management:**
+     - Recommend settings for smart home energy systems if available.
+     - Provide energy-saving tips specific to the weather conditions.
+     - Suggest automation schedules for optimal energy usage.
+  
+  Format your response with clear headings and bullet points. Include percentage estimates for generation capacity where appropriate. Tailor all recommendations to the specific weather conditions and available energy sources.
+
+# ReadME configuration
+readme: |
+  ## Renewable Energy Assistant Flow
+  
+  This AI-powered flow provides personalized renewable energy management guidance:
+  
+  - **Weather-Based Energy Forecasting:** Predicts solar and wind generation potential based on current conditions
+  - **Dynamic Load Balancing:** Optimizes energy distribution between usage, storage, and grid
+  - **Battery Health Management:** Provides maintenance recommendations and optimal charging strategies
+  - **Smart Energy Allocation:** Guides on prioritizing energy usage for maximum efficiency
+  - **Custom Recommendations:** Tailors advice to your specific location, weather, and energy setup
+  
+  ### Usage
+  
+  Simply provide your location, current weather conditions, energy sources (solar, wind, etc.), and battery status to receive a customized energy management plan.
