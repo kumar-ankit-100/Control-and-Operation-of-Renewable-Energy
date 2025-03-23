@@ -146,7 +146,42 @@ This project was built as part of a **hackathon challenge** on **renewable energ
 - **AI-Powered Monitoring:** [Streamlit App](https://control-and-operation-of-renewable-energy-tx9cuvefu7wwpggprjsa.streamlit.app/)
 
 
-## Authors
+## 👨‍💻 Authors & Contributors  
 
-- [@kumar-ankit-100](https://github.com/kumar-ankit-100)
+This project was collaboratively developed by a team of passionate engineers, each specializing in different aspects of renewable energy modeling and system integration.  
+
+### 🔹 **Shreedhar Anand** ([GitHub](https://github.com/shreedhardynamiccraft))  
+**Role:** Full-Stack Developer (Frontend & Backend), Solar Cost & Savings Analyst  
+
+- Led the development of the **frontend and backend management system**, creating a user-friendly interface and ensuring smooth API interactions.  
+- Designed and implemented the **dashboard for renewable energy monitoring**, enabling users to visualize real-time energy predictions and analytics.  
+- Optimized the **database and API endpoints** to handle energy data efficiently.  
+- Developed the **Solar Price Calculator**, an ML-powered tool that estimates **solar panel costs, energy savings, and financial benefits** based on inputs like surface area, location, and energy consumption.  
+- Implemented an AI model to predict **how much energy can be saved using solar panels** and the corresponding **cost savings** over time.  
+
+---
+
+### 🔹 **Ankit Kumar** ([GitHub](https://github.com/kumar-ankit-100))  
+**Role:** AI/ML Engineer & System Integrator  
+
+- Developed the **solar energy determination module**, analyzing solar panel efficiency using AI models.  
+- Created **AI-powered energy prediction models** to forecast energy generation based on historical and environmental data.  
+- Integrated multiple components, ensuring seamless communication between **solar, wind, and management systems**.  
+- Implemented **real-time AI predictions** into the **Streamlit** and **React-based dashboard**.  
+
+---
+
+### 🔹 **Ram Ashish Yadav** ([GitHub](https://github.com/ramashishyadav108))  
+**Role:** Wind Energy Specialist & IoT Developer  
+
+- Built **wind energy prediction models**, trained on large datasets to estimate power generation.  
+- Enabled **real-time monitoring and data acquisition** using **Arduino and IoT sensors** for wind turbine efficiency tracking.  
+- Integrated sensor-based **live data streaming** into the system, improving energy forecasting accuracy.  
+- Optimized **model training and deployment**, making wind energy predictions faster and more accurate.  
+
+---
+
+🚀 **Special Thanks to All Contributors!**  
+This project is a result of dedicated teamwork, leveraging AI, ML, and IoT for smarter renewable energy management.  
+
 
