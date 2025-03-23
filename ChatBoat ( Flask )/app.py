@@ -3,7 +3,7 @@ from mira_sdk import MiraClient, Flow
 import re
 import json
 
-client = MiraClient(config={"API_KEY": "sb-10bd198c107f394bd35023e19884fa57"})  # Initialize Mira Client
+client = MiraClient(config={"API_KEY": "your Mira api key"})  # Initialize Mira Client
 
 def format_to_html(text):
     # Convert headings (### Heading → <h3>Heading</h3>)
