@@ -6,6 +6,13 @@ import hydro
 import biomass
 from utils import load_css
 
+# Initialize session state for variables
+if "current_page" not in st.session_state:
+    st.session_state.current_page = "home"
+
+if "current_index" not in st.session_state:  # Initialize 'current_index' here
+    st.session_state.current_index = 0
+
 # Set page configuration
 # st.set_page_config(
 #     page_title="Renewable Energy Solutions",
@@ -16,6 +23,8 @@ from utils import load_css
 
 # Load custom CSS
 load_css()
+
+
 
 # Create a dictionary for page navigation
 pages = {
