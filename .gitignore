@@ -26,11 +26,9 @@ dist-ssr
 node_modules/
 .env
 __pycache__/
-*.pyc
-dist/
-.DS_Store
-# Python Virtual Environment
-venv/
+
+
+
 *.pyc
 __pycache__/
 *.pyo
