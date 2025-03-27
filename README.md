@@ -45,7 +45,7 @@ Renewable energy sources like **solar and wind** are the future, but **their eff
 ### **🔹 IoT & Cloud**
 
 - **AWS** – Used for deployment, ensuring cloud-based analytics.
-- **Arduino & Sensors** – Collect real-time **wind speed, solar irradiance, and temperature** data.
+- **Arduino & Sensors** – Collect real-time **wind sped, solar irradiance, and temperature** data.
 
 ## 🔥 How It Works?
 
