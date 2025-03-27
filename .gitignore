@@ -56,3 +56,10 @@ build/
 *.swo
 Thumbs.db
 
+*.pyc
+dist/
+.DS_Store
+# Python Virtual Environment
+venv/
+
+
