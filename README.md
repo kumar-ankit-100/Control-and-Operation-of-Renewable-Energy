@@ -169,7 +169,7 @@ This project was collaboratively developed by a team of passionate engineers, ea
 - Integrated multiple components, ensuring seamless communication between **solar, wind, and management systems**.  
 - Implemented **real-time AI predictions** into the **Streamlit** and **React-based dashboard**.  
 
----
+----
 
 ### 🔹 **Ram Ashish Yadav** ([GitHub](https://github.com/ramashishyadav108))  
 **Role:** Wind Energy Specialist & IoT Developer  
