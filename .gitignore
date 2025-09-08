@@ -24,7 +24,6 @@ dist-ssr
 *.sw?
 # .gitignore
 node_modules/
-.env
 __pycache__/
 
 
@@ -36,7 +35,6 @@ __pycache__/
 
 # Flask & Python Env Files
 instance/
-.env
 *.sqlite3
 *.log
 
@@ -63,3 +61,4 @@ dist/
 venv/
 
 
+config.bat
