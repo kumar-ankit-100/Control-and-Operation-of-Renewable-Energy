@@ -1,65 +1,65 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-# .gitignore
-node_modules/
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# .gitignore
+node_modules/
+__pycache__/
+
+
+
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Flask & Python Env Files
+instance/
+*.sqlite3
+*.log
+
+# Node.js & Frontend Files
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+.vite/
+
+# Editor & System Files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+
+*.pyc
+dist/
+.DS_Store
+# Python Virtual Environment
+venv/
+
+
+config.bat
 .env
-__pycache__/
-
-
-
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-
-# Flask & Python Env Files
-instance/
-.env
-*.sqlite3
-*.log
-
-# Node.js & Frontend Files
-node_modules/
-npm-debug.log
-yarn-error.log
-dist/
-build/
-.vite/
-
-# Editor & System Files
-.DS_Store
-.vscode/
-.idea/
-*.swp
-*.swo
-Thumbs.db
-
-*.pyc
-dist/
-.DS_Store
-# Python Virtual Environment
-venv/
-
-
