@@ -29,7 +29,7 @@ Renewable energy sources like **solar and wind** are the future, but **their eff
 
 - **LSTM (Long Short-Term Memory)** – Used for **time-series forecasting** of solar and wind energy.
 - **XGBoost** – Helps improve energy prediction accuracy.
-- **Scikit-learn** – Used for feature engineering and classification models.
+- **Scikit-learn** – Used for feature engineering and clasification models.
 
 ### **🔹 Web & Dashboard**
 
